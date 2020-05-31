@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>环游中国去寻鸟</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/anniu.css">
+    <link rel="stylesheet" href="./fonts/icomoon.css">
+
+</head>
+
+<body>
+    <div class="all">
+        <div class="bll"><a href="index.html"><div class="list backc11">返回</div></a></div>
+        
+	</div>
+    <canvas></canvas> 
+
+
+    <div class="viewport">
+        <div class="column">
+            <!--概览-->
+            <div class="overview panel">
+                <div class="inner">
+                    <div class="item">
+                        <h4>1186</h4>
+                        <span>
+                            <i class="icon-dot" style="color: #006cff"></i>
+                            全部种类
+                        </span>
+                    </div>
+                    <div class="item">
+                        <h4>183</h4>
+                        <span>
+                            <i class="icon-dot" style="color: #6acca3"></i>
+                            濒危类
+                        </span>
+                    </div>
+                    <div class="item">
+                        <h4>105</h4>
+                        <span>
+                            <i class="icon-dot" style="color: #6acca3"></i>
+                            特有类
+                        </span>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--监控-->
+            <div class="monitor panel">
+                <div class="inner">
+                    <div class="tabs">
+                        <a href="javascript:;" data-index="0" class="active">最早观测</a>
+                        <a href="javascript:;" data-index="1">最近观测</a>
+                    </div>
+                    <div class="content" style="display: block;">
+                        <div class="head">
+                            <span class="col">观测时间</span>
+                            <span class="col">观测地点</span>
+                            <span class="col">鸟种数量</span>
+                        </div>
+                        <div class="marquee-view">
+                            <div class="marquee">
+                                <div class="row">
+                                    <span class="col">2014-09-04</span>
+                                    <span class="col">北京市北京市延庆区金牛湖</span>
+                                    <span class="col">8</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2013-12-22</span>
+                                    <span class="col">贵州省黔南布依族苗族自治州龙里县鬼架桥峡谷</span>
+                                    <span class="col">24</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2014-09-04</span>
+                                    <span class="col">北京市北京市延庆区八达岭森林公园</span>
+                                    <span class="col">3</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2014-09-01</span>
+                                    <span class="col">北京市北京市密云区干峪沟</span>
+                                    <span class="col">6</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2014-01-11</span>
+                                    <span class="col">贵州省贵阳市云岩区鹿冲关森林公园</span>
+                                    <span class="col">12</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2014-01-17</span>
+                                    <span class="col">贵州省贵阳市南明区药用植物园</span>
+                                    <span class="col">16</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2014-01-04</span>
+                                    <span class="col">贵州省贵阳市观山湖区观山湖公园</span>
+                                    <span class="col">29</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2014-09-08</span>
+                                    <span class="col">新疆维吾尔自治区阿勒泰地区青河县野马泉</span>
+                                    <span class="col">18</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2014-01-18</span>
+                                    <span class="col">贵州省黔南布依族苗族自治州龙里县红岩峡谷</span>
+                                    <span class="col">27</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2014-09-06</span>
+                                    <span class="col">新疆维吾尔自治区昌吉回族自治州奇台县北塔山牧场</span>
+                                    <span class="col">38</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="head">
+                            <span class="col">观测时间</span>
+                            <span class="col">观测地点</span>
+                            <span class="col">鸟种数量</span>
+                        </div>
+                        <div class="marquee-view">
+                            <div class="marquee">
+                                <div class="row">
+                                    <span class="col">2020-05-23</span>
+                                    <span class="col">河南省信阳市罗山县白云山庄观鸟拍鸟基地</span>
+                                    <span class="col">3</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2020-05-21</span>
+                                    <span class="col">云南省德宏傣族景颇族自治州盈江县云南省德宏州盈江县洪崩河</span>
+                                    <span class="col">7</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2020-05-23</span>
+                                    <span class="col">河南省信阳市罗山县潘新镇</span>
+                                    <span class="col">11</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2020-05-23</span>
+                                    <span class="col">北京市通州区大运河森林公园</span>
+                                    <span class="col">42</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2020-05-23</span>
+                                    <span class="col">河南省信阳市罗山县潘新镇</span>
+                                    <span class="col">10</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2020-05-23</span>
+                                    <span class="col">北京市昌平区沙河水库西岸</span>
+                                    <span class="col">39</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2020-05-23</span>
+                                    <span class="col">辽宁省锦州市凌海市东方华地城</span>
+                                    <span class="col">14</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2019-02-17</span>
+                                    <span class="col">辽宁省锦州市凌海市东方华地城</span>
+                                    <span class="col">34</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2020-05-21</span>
+                                    <span class="col">辽宁省沈阳市铁西区劳动公园</span>
+                                    <span class="col">6</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                                <div class="row">
+                                    <span class="col">2020-05-23</span>
+                                    <span class="col">广东省佛山市南海区佛山市植物园</span>
+                                    <span class="col">21</span>
+                                    <span class="icon-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--点位-->
+            <div class="point panel">
+                <div class="inner">
+                    <h3>鸟类迁徙点分布统计</h3>
+                    <div class="chart">
+                        <div class="pie"></div>
+                        <div class="data">
+                            <div class="item">
+                                <h4>320,11</h4>
+                                <span>
+                                    <i class="icon-dot" style="color: #ed3f35"></i>
+                                    点位总数
+                                </span>
+                            </div>
+                            <div class="item">
+                                <h4>418</h4>
+                                <span>
+                                    <i class="icon-dot" style="color: #eacf19"></i>
+                                    本月新增
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <!-- 地图 -->
+            <div class="map">
+                <h3>
+                    <span class="icon-cube"></span>
+                    鸟类群体地理位置迁移
+                </h3>
+                <div class="chart">
+                    <div class="geo"></div>
+                </div>
+            </div>
+            <!-- 用户 -->
+            <div class="users panel">
+                <div class="inner">
+                    <h3>全国各省鸟种数量统计</h3>
+                    <div class="chart">
+                        <div class="bar"></div>
+                        <div class="data">
+                            <div class="item">
+                                <h4>1186</h4>
+                                <span>
+                                    <i class="icon-dot" style="color: #ed3f35"></i>
+                                    鸟类总量
+                                </span>
+                            </div>
+                            <div class="item">
+                                <h4>81</h4>
+                                <span>
+                                    <i class="icon-dot" style="color: #eacf19"></i>
+                                    目
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <!-- 订单 -->
+            <!-- <div class="order panel">
+                <div class="inner">
+                    
+                    <div class="filter">
+                        <a href="javascript:;" data-key="day365" class="active">365天</a>
+                        <a href="javascript:;" data-key="day90">90天</a>
+                        <a href="javascript:;" data-key="day30">30天</a>
+                        <a href="javascript:;" data-key="day1">24小时</a>
+                    </div>
+                    
+                    <div class="data">
+                        <div class="item">
+                            <h4>20,301,987</h4>
+                            <span>
+                                <i class="icon-dot" style="color: #ed3f35;"></i>
+                                订单量
+                            </span>
+                        </div>
+                        <div class="item">
+                            <h4>99834</h4>
+                            <span>
+                                <i class="icon-dot" style="color: #eacf19;"></i>
+                                销售额(万元)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- 销售额 -->
+            <div class="sales panel">
+                <div class="inner">
+                    <div class="caption">
+                        <h3>迁移数统计</h3>
+                        <a href="javascript:;" class="active" data-type="year">年</a>
+                        <a href="javascript:;" data-type="quarter">季</a>
+                        <a href="javascript:;" data-type="month">月</a>
+                        <a href="javascript:;" data-type="week">周</a>
+                    </div>
+                    <div class="chart">
+                        <div class="label">单位:万</div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 渠道 季度 -->
+            <div class="wrap">
+                <div class="channel panel">
+                    <div class="inner">
+                        <h3>地理分布</h3>
+                        <div class="data">
+                            <div class="item">
+                                <h4>39 <small>%</small></h4>
+                                <span>
+                                    
+                                    森林
+                                </span>
+                            </div>
+                            <div class="item">
+                                <h4>28 <small>%</small></h4>
+                                <span>
+                                   
+                                    平原
+                                </span>
+                            </div>
+                        </div>
+                        <div class="data">
+                            <div class="item">
+                                <h4>20 <small>%</small></h4>
+                                <span>
+                                
+                                    高原
+                                </span>
+                            </div>
+                            <div class="item">
+                                <h4>13 <small>%</small></h4>
+                                <span>
+                                  
+                                    草原
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quarter panel">
+                    <div class="inner">
+                        <h3>一季度迁移进度</h3>
+                        <div class="chart">
+                            <div class="box">
+                                <div class="gauge"></div>
+                                <div class="label">75<small> %</small></div>
+                            </div>
+                            <div class="data">
+                                <div class="item">
+                                    <h4>1,321</h4>
+                                    <span>
+                                        <i class="icon-dot" style="color: #6acca3"></i>
+                                        迁移数(万只)
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <h4>150%</h4>
+                                    <span>
+                                        <i class="icon-dot" style="color: #ed3f35"></i>
+                                        同比增长
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 排行榜 -->
+            <div class="top panel">
+                <div class="inner">
+                    <div class="all">
+                        <h3>全国鸟类数量排行</h3>
+                        <ul>
+                            <li>
+                                <i class="icon-cup1" style="color: #d93f36;"></i>
+                                麻雀
+                            </li>
+                            <li>
+                                <i class="icon-cup2" style="color: #68d8fe;"></i>
+                                鸽子
+                            </li>
+                            <li>
+                                <i class="icon-cup3" style="color: #4c9bfd;"></i>
+                                雨燕
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="province">
+                        <h3>各省数量 <i class="date">// 近30日 //</i></h3>
+                        <div class="data">
+                            <ul class="sup">
+                                <li>
+                                    <span>北京</span>
+                                    <span>25,179 <s class="icon-up"></s></span>
+                                </li>
+                                <li>
+                                    <span>河北</span>
+                                    <span>23,252 <s class="icon-down"></s></span>
+                                </li>
+                                <li>
+                                    <span>上海</span>
+                                    <span>20,760 <s class="icon-up"></s></span>
+                                </li>
+                                <li>
+                                    <span>江苏</span>
+                                    <span>23,252 <s class="icon-down"></s></span>
+                                </li>
+                                <li>
+                                    <span>山东</span>
+                                    <span>20,760 <s class="icon-up"></s></span>
+                                </li>
+                            </ul>
+                            <ul class="sub">
+                                <!-- <li><span>数据</span><span> 数据<s class="icon-up"></s></span></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="https://www.jq22.com/jquery/echarts-4.2.1.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/niao.js"></script>
+<script src="./js/china.js"></script>
+<script src="./js/mymap.js"></script>
+
+</html>
